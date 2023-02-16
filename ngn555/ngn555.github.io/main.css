@@ -18,6 +18,7 @@ h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
+    text-shadow: 2px 2px 2px rgb(red 128, green 0, blue 0);
 }
 
 h2 {
