@@ -18,11 +18,17 @@ h1 {
     font-size: 175px;
     color: maroon;
     text-indent: 30px;
+    float: right;
 }
 
 h2 {
     font-size: 130px;
     color: #800000;
     text-indent: 30px;
+    float: right;
+}
+
+img {
+    float: left;
 }
 
