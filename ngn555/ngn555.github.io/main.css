@@ -78,7 +78,7 @@ footer {
     font-size: 80%;
 }
 
-nav {
+.list {
     margin-top: 1.5em;
     margin-left: 2em;
     margin-right: 2em;
@@ -91,7 +91,7 @@ nav {
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.5em;
-    padding-bottom: 4.5em;/*.5*/
+    padding-bottom: 0.5em;/*.5*/
 }
 
 .contact {
