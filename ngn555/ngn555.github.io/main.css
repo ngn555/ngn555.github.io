@@ -46,6 +46,7 @@ h2 {
 
 img {
     float: left;
+    margin-left: auto;
 }
 
 p.clear {
@@ -92,5 +93,21 @@ nav {
     padding-right: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+.contact {
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    border: 5px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
 }
 
