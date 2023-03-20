@@ -109,7 +109,9 @@ p.fixed {
     position: fixed;
     bottom: 35%;
     right: 0;
-    border: 3px solid darkgreen;
+    border: 3px;
+    border-style: solid;
+    border-color: darkgreen;
     background-color: lightgreen;
     padding: 1em;
 }
