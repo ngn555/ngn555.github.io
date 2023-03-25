@@ -49,7 +49,7 @@ aside {
     border-style: solid;
     border-color: blue;
     background-color: lightblue;
-    float: right top;
+    float: right;
 }
 
 p::first-letter {
@@ -72,4 +72,8 @@ h2 {
 img {
     float: left;
     margin: 5px;
+}
+
+footer {
+    text-align: center;
 }
