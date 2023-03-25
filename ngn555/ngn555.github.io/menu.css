@@ -49,6 +49,7 @@ aside {
     border-style: solid;
     border-color: blue;
     background-color: lightblue;
+    float: right;
 }
 
 p::first-letter {
