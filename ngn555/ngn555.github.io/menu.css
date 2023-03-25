@@ -33,3 +33,17 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
+
+body {
+    width: 95%;
+    margin: 15px auto;
+}
+
+article {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
+}
+
