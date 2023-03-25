@@ -54,11 +54,14 @@ p::first-letter {
     font-weight: bold;
 }
 
-h2 {
-    color: blue;
+p {
     column-count: 1;
     column-gap: 40px;
     column-rule: 4px dotted blue;
+}
+
+h2 {
+    color: blue;
 }
 
 img {
