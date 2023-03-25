@@ -45,6 +45,8 @@ article {
 
 aside {
     width: 20%;
+    border-color: blue;
+    background-color: lightblue;
 }
 
 p::first-letter {
