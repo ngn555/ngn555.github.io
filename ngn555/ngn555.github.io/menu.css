@@ -56,6 +56,9 @@ p::first-letter {
 
 h2 {
     color: blue;
+    column-count: 1;
+    column-gap: 40px;
+    column-rule: 4px dotted blue;
 }
 
 img {
