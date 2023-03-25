@@ -57,3 +57,8 @@ p::first-letter {
 h2 {
     color: blue;
 }
+
+img {
+    float: left;
+    margin: 5px;
+}
