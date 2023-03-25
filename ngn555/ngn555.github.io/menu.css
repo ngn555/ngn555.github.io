@@ -50,4 +50,10 @@ aside {
 p::first-letter {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    color: blue;
 }
