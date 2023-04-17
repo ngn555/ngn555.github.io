@@ -73,8 +73,12 @@ html, body {
     /*----------------------------------------------*/
 
     table.third{
-        padding: auto;
+        padding: 0;
         vertical-align: top;
+    }
+
+    table.third caption{
+        background-color: lightgreen;
     }
 
     table.third th{
