@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="ngn555/ngn555.github.io/test.css">
 </head>
 <body>
+    <button onclick="openDialog()">Add Employee Information</button>
     
+    <dialog id="employeeDialog">
+      <form onsubmit="saveEmployee(); return false;">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        
+        <label for="yearsEmployed">Years of Employment:</label>
+        <input type="number" id="yearsEmployed" name="yearsEmployed" min="0" required><br><br>
+        
+        <label for="awards">Awards:</label>
+        <input type="text" id="awards" name="awards"><br><br>
+        
+        <label for="meetings">Meetings:</label>
+        <input type="text" id="meetings" name="meetings"><br><br>
+        
+        <label for="events">Events:</label>
+        <input type="text" id="events" name="events"><br><br>
+        
+        <button type="submit">Save</button>
+        <button type="button" onclick="closeDialog()">Cancel</button>
+      </form>
+    </dialog>
+    
+    <div id="employeeList"></div>
+    
+    <script>
+      function openDialog() {
+        var dialog = document.querySelector('#employeeDialog');
+        dialog.showModal();
+      }
+      
+      function closeDialog() {
+        var dialog = document.querySelector('#employeeDialog');
+        dialog.close();
+      }
+      
+      function saveEmployee() {
+        var firstName = document.querySelector('#firstName').value;
+        var lastName = document.querySelector('#lastName').value;
+        var yearsEmployed = document.querySelector('#yearsEmployed').value;
+        var awards = document.querySelector('#awards').value;
+        var meetings = document.querySelector('#meetings').value;
+        var events = document.querySelector('#events').value;
+        
+        var employeeInfo = document.createElement('div');
+        employeeInfo.innerHTML = '<h2>' + firstName + ' ' + lastName + '</h2>' +
+                                 '<p>Years of Employment: ' + yearsEmployed + '</p>' +
+                                 '<p>Awards: ' + awards + '</p>' +
+                                 '<p>Meetings: ' + meetings + '</p>' +
+                                 '<p>Events: ' + events + '</p>';
+        
+        var employeeList = document.querySelector('#employeeList');
+        employeeList.appendChild(employeeInfo);
+        
+        closeDialog();
+      }
+    </script>
+  </body>
+</html>
+
 </body>
 </html>

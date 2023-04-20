@@ -1,0 +1,41 @@
+/* Main colors */
+:root {
+    --primary-color: #eb9310;
+    --secondary-color: #0c5396;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: var(--primary-color);
+    color: #ffffff;
+  }
+  
+  nav a {
+    color: #ffffff;
+  }
+  
+  /* Heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    color: var(--primary-color);
+  }
+  
+  /* Button styles */
+  button, .button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button:hover, .button:hover {
+    background-color: var(--secondary-color);
+  }
