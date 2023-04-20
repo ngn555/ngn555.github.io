@@ -7,35 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="openForm()">Add Individual Information</button>
-
-<div id="infoForm" style="display:none;">
-  <h2>Enter Individual Information:</h2>
-  <form>
-    First name:<br>
-    <input type="text" name="firstname"><br>
-    Last name:<br>
-    <input type="text" name="lastname"><br><br>
-    <button type="button" onclick="saveInfo()">Save</button>
-    <button type="button" onclick="closeForm()">Cancel</button>
-  </form>
-</div>
-
-<script>
-function openForm() {
-  document.getElementById("infoForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("infoForm").style.display = "none";
-}
-
-function saveInfo() {
-  // code to save individual information goes here
-  alert("Information saved successfully!");
-  document.getElementById("infoForm").style.display = "none";
-}
-</script>
-
+    
 </body>
 </html>
